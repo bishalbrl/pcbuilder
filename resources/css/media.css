@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .data{
+  .data {
     justify-content: space-between;
     padding: 0 20px;
   }
@@ -41,21 +41,34 @@
   .data p {
     font-size: 2rem;
   }
-  .container{
+  .container {
     flex-direction: column;
   }
-  form{
+  form {
     grid-template-columns: 1fr;
   }
-  .section2{
+  .section2 {
     gap: 30px;
   }
-  .section2 .sect{
+  .section2 .sect {
     width: 100%;
     gap: 10px;
   }
 
-  footer .foot{
+  footer .foot {
     display: none;
+  }
+}
+
+/* animation */
+
+@keyframes anim {
+  from {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
