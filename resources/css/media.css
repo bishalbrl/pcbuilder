@@ -41,4 +41,21 @@
   .data p {
     font-size: 2rem;
   }
+  .container{
+    flex-direction: column;
+  }
+  form{
+    grid-template-columns: 1fr;
+  }
+  .section2{
+    gap: 30px;
+  }
+  .section2 .sect{
+    width: 100%;
+    gap: 10px;
+  }
+
+  footer .foot{
+    display: none;
+  }
 }
