@@ -1,13 +1,44 @@
 /* for mobile scree */
 @media only screen and (max-width: 768px) {
-  
-  html{
+  html {
     font-size: 50%;
   }
-  nav{
+  nav {
     justify-content: center;
   }
-    .logo {
+  .logo {
     display: none;
+  }
+  .boxs {
+    flex-direction: column;
+  }
+  .box + .box {
+    border: none;
+    margin-bottom: 10px;
+  }
+  header p {
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-top: 20px;
+  }
+
+  .parts .img-container {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .data{
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .data h3 {
+    font-size: 3rem;
+  }
+
+  .data p {
+    font-size: 2rem;
   }
 }
