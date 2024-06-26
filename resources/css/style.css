@@ -32,6 +32,11 @@ nav {
   padding: 0 4rem;
   height: 80px;
   overflow: hidden;
+  border-bottom: 1px solid #54534c;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 nav .logo {
@@ -72,6 +77,8 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  top: 80px;
 }
 .content {
   display: flex;
@@ -140,6 +147,11 @@ header p {
   font-size: 1.2rem;
   line-height: 1.4;
   margin-top: 10px;
+}
+
+main{
+  position: relative;
+  top: 80px;
 }
 
 /* what can we do section */
